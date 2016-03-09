@@ -1,0 +1,19 @@
+<div class="encounters">
+
+  <div class="encounters-header">
+  <h1>Recent Encounters
+  </h1>
+   <span class="encounters-sub-heading">See an Alien? Report it!</span>
+  </div>
+   <ul class="list-encounters">
+     <li ng-repeat="report in encounters">
+     <div class="report-headline">
+       {{ report.date }} - {{ report.atype }}
+     </div>
+     <div class="report-sub">{{ report.action }}</div>
+     </li>
+   </ul>
+   <footer>
+     <button ng-click="transition($event)" class="encounters-button">Report Encounter</button>
+   </footer>
+</div>

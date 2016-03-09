@@ -1,0 +1,61 @@
+.encounters {
+  height: 100vh;
+  width: 100vw;
+  flex-direction: column;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.encounters-header {
+  align-self: center;
+  padding-bottom: 2rem;
+  padding-left: 2rem;
+}
+
+.encounters-sub-heading {
+  padding-left: 4rem;
+}
+
+.report-headline {
+  display: block;
+  margin-top: 1rem;
+  color: green;
+  text-align: center;
+  line-height: 2rem;
+}
+
+.report-sub {
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  text-align: center;
+  background: url('./img/dunes.jpg') no-repeat;
+  background-size: cover;
+}
+
+.list-encounters {
+  height: 60vh;
+  overflow: scroll;
+}
+
+
+footer {
+margin-top: 2rem;
+align-self: center;
+}
+
+.encounters-button {
+  font-family:  sans-serif, serif;
+  height: 5rem;
+  width: 8rem;
+  border-radius: 1rem;
+  background-color: #CED5B3;
+  font-size: 1rem;
+  border: none;
+}
+
+button:hover {
+  cursor: pointer;
+}

@@ -1,0 +1,22 @@
+<div class="check-in">
+
+    <h1 class="brand-text">Register</h1>
+    <p ng-if="validate" class="brand-text">Please enter something.</p>
+    <form name="checkinForm" novalidate class="check-in-form">
+      <!-- <label for="">name</label> -->
+      <input type="text" name="name" value="" placeholder="name" ng-model="colonist.name" required />
+      <!-- <label for="">age</label> -->
+
+      <input type="number" name="age" value="" placeholder="age" ng-model="colonist.age" required />
+
+      <select name="jobs" id="jobs" ng-model="colonist.job_id" required>
+        <option value=""> -- Select an occupation -- </option>
+        <option value="{{ job.id }}" ng-repeat="job in jobs">{{ job.name }}</option>
+      </select>
+
+      <button ng-click="login($event)" class="brand-text check-in-button" >Check in</button>
+    </form>
+
+</div>
+
+<!-- novalidate ng-submit="checkinForm.&valid" -->
