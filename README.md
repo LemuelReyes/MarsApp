@@ -24,6 +24,7 @@ and report alien encounters to which the data is stored and rendered in a differ
 - Flexbox
 - Taskrunners such as Gulp, Autoprefixer, and BrowserSync
 - SASS pre-compiler
+- Firebase for deployment
 
 ### Personal Experience
 
