@@ -28,9 +28,10 @@ and report alien encounters to which the data is stored and rendered in a differ
 
 ### Personal Experience
 
-This project's purpose was to solidify the concepts of AngularJS and practicing them.
-There was minimal code and CSS partials involved but achieved numerous impressive functions, which made me fall in love with AngularJS.
-This website felt more like an app than a static website and that felt really good developing it.
+This project's purpose was to solidify the concepts of AngularJS and practice them.
+Code was kept a minimal and CSS partials were involved but it still achieved an impressive amount of functions, which made me realize the power of AngularJS.
+
+This website felt more like an app than a static website and it felt really good developing it.
 AngularJS was very challenging to learn and implement, I had to use extra resources online, teacher's suggestions,
-and classmate aid but I came out learning a very cool language.  Moving forward I would love to implement more Angular as
+and classmate aid but I came out having built a cool web-app and learnt a very cool language.  Moving forward I would love to implement more Angular as
 I learn more and more.  Overall it was a great experience working on this web-app and using AngularJS.
